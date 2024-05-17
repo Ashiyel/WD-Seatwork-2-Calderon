@@ -6,21 +6,21 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+  <a href="https://app.daily.dev/ashiyel"><img src="https://api.daily.dev/devcards/v2/4oY6KBXmOnMAMIGrfsb8y.png?r=z6m&type=wide" width="652" alt="Angel Calderon's Dev Card"/></a>
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">WD - RESUME</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  A resume is a quick and precise introduction of educational and life experiences in one folder.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Ashiyel/WD-Resume)
 
 ---
 
@@ -61,6 +61,7 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+   - The project is about 
 - Whats the purpose
 - What are key components
 - What technology used and how it is used
