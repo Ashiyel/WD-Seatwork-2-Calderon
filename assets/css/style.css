@@ -1,38 +1,47 @@
-body{
-    background-image: url(zild-peace-bg.png)
+body {
+  background-image: url(zild-peace-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
+
 * {
-    padding: 1;
-    margin: 0;
-  }
+  padding: 0; \
+  margin: 0;
+}
 
-  header,
-  header * {
-    outline: 1px blue dashed;
-  }
+header,
+header * {
+  outline: 1px blue dashed;
+}
 
-  header {
-    display: flex;
-    justify-content: space-around;
-    padding: .3 rem 5vw 0;
-    align-items: center;
-  }
+header {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.3rem 5vw 0;
+  align-items: center;
+}
 
-  header button {
-    padding: .5 rem .1 rem;
-    border: none;
-    background: transparent;
-    font-weight: 600;    
-  }
-  
-  section.hero {
-    display: flex;
-    justify-content: center;
-    align-items:safe;
-    align-content: center;
-    row-gap: 10px;
+header button {
+  padding: 0.5rem 0.1rem;
+  border: none;
+  background: transparent;
+  font-weight: 600;
+}
+
+section.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  row-gap: 10px;
+}
+
+section.AboutMe {
+display: flex;
+justify-content: first baseline;
 
 
 
-
-  }
+}
