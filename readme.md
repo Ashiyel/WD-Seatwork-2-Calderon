@@ -61,10 +61,14 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
-   - The project is about 
+   - The project contains details about the author-- a resume perhaps. It may contain projects,works, identifications, and other details.
 - Whats the purpose
+   - The purpose of this project is to summarize the author's identity and qualifications.
 - What are key components
-- What technology used and how it is used
+   - Introduction
+   - About Me
+   - Contacts
+   - Ideas, etc.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -118,6 +122,18 @@ WD-ProjectName
 | Letter Space And Line Height In HTML Element Using css | Letter Spacing | https://www.youtube.com/watch?v=Zo8MuwWIflo |
 |
 | CSS Fonts | CCS Font Guide| https://www.w3schools.com/css/css_font.asp |
-| | | |
 |
-
+| Easiest Pure CSS Parallax Effect Tutorial | Parallax Effect| https://www.youtube.com/watch?v=Jt2yNZdOHxQ | https://redstapler.co/easiest-way-to-create-pure-css-parallax-tutorial/|
+|
+| How to resize an image using CSS | Image Resize| https://www.browserstack.com/guide/how-to-resize-image-using-css#toc0 |
+|
+| How To Add Text Outline With CSS | Text Outline | https://kinsta.com/blog/css-text-outline/ |
+|
+| HTML Background Music Code | BG Music| https://www.quackit.com/html/codes/html_background_music_codes.cfm |
+|
+| CSS text-shadow Property | Text Shadow| https://www.w3schools.com/cssref/css3_pr_text-shadow.php |
+|
+| HTML Links | For Hyperlinks | https://www.w3schools.com/html/html_links.asp |
+|
+| Modern CSS Glowing Button Hover Effects | Html CSS Tutorial | Button | https://www.youtube.com/watch?v=xnltEHWWjiM |
+| | | |
