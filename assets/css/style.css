@@ -1,47 +1,137 @@
 body {
-  background-image: url(zild-peace-bg.png);
+  background-image: url('../img/zildd.png');  
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family:monospace;
 }
 
 * {
-  padding: 0; \
+  padding: 0;
   margin: 0;
 }
 
 header,
 header * {
-  outline: 1px blue dashed;
+  /* outline: 1px blue dashed; */
+  color-interpolation-filters: linearRGB;
 }
 
 header {
   display: flex;
-  justify-content: space-around;
-  padding: 0.3rem 5vw 0;
+  justify-content: space-between;
+  padding: 20px;
   align-items: center;
+  font-size: medium;
+  position: relative;  
+}
+.logo{
+  color:rgb(242, 202, 151);
+  font-size:large;
+  letter-spacing: 10px;
+  list-style:armenian;
+  line-height: 2cap;
+  margin-left: 3cap;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav {
+  position: absolute;  
+  bottom: 0;  
+  right: 0;  
 }
 
 header button {
   padding: 0.5rem 0.1rem;
   border: none;
-  background: transparent;
   font-weight: 600;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: transparent; 
+  font-size: medium;
+  border: none;  
+  text-decoration: underline; 
 }
 
-section.hero {
+.name {
   display: flex;
-  justify-content: center;
   align-items: center;
-  align-content: center;
-  row-gap: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-size: xx-large; 
 }
 
-section.AboutMe {
-display: flex;
-justify-content: first baseline;
+main {
+  align-items: center;
+  margin: 50px;
+  color: aliceblue;
+  line-height: 30px;
+  font-size: larger;
 
+}
 
+.introSubhead{
+  color:tomato;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight:bolder;
+  font-size: 2dvw;
+  line-height: 300%;
 
+}
+.introMain {
+  /*background-color: rgba(125, 106, 106, 0.5); */
+  background-blend-mode: color-burn;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color:beige;
+  font-size: 1dvw;
+  line-height: 300%;
+  justify-content: left;
+  max-width: ;
+
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem 0.1rem;
+  border: none;
+  font-weight: 300;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-size: small;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.content {
+  display: flex; 
+  align-items: center;
+}
+
+}
+
+.image {
+  margin-left: 20px;  
+}
+
+.image img {
+  max-width: auto; 
+  height: auto;
+  max-width: ;
+  
+}
+}
+
+.note {
+  text-align: center; /* Align the text to the center */
+  color: bisque; /* Change the text color */
+  margin-top: 20px; /* Add some space from the top */
+  font-size: smaller; /* Adjust the font size */
 }

@@ -110,6 +110,14 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Collapsible/Dropdown Using Only HTML CSS | CSS Tutorial | Enhance Coding | SEO Friendly | Collapsable Button | https://www.youtube.com/watch?v=RvpYnUZRquw
- |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+|
+| CSS Web Safe Fonts | Guides to CSS Fonts | https://www.w3schools.com/cssref/css_websafe_fonts.php |
+|
+| How to include a CSS background image 🏙️ | For Background Image| https://www.youtube.com/watch?v=_oFWg_NlKdo |
+|
+| Letter Space And Line Height In HTML Element Using css | Letter Spacing | https://www.youtube.com/watch?v=Zo8MuwWIflo |
+|
+| CSS Fonts | CCS Font Guide| https://www.w3schools.com/css/css_font.asp |
+| | | |
+|
+
