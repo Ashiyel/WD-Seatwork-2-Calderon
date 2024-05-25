@@ -113,6 +113,8 @@ WD-ProjectName
 ## Resources
 
 <!-- TODO: Add References -->
+| Title | Purpose | Link |
+|-|-|-|
 | Collapsible/Dropdown Using Only HTML CSS | CSS Tutorial | Enhance Coding | SEO Friendly | Collapsable Button | https://www.youtube.com/watch?v=RvpYnUZRquw
 |
 | CSS Web Safe Fonts | Guides to CSS Fonts | https://www.w3schools.com/cssref/css_websafe_fonts.php |
@@ -137,3 +139,8 @@ WD-ProjectName
 |
 | Modern CSS Glowing Button Hover Effects | Html CSS Tutorial | Button | https://www.youtube.com/watch?v=xnltEHWWjiM |
 | How to Create Tabs with only HTML & CSS | Tabs in CSS| https://www.youtube.com/watch?v=oLqdy95LZSw |
+| Flagoria Calintha | Font Import| https://www.dafont.com/flagoriacalintha.font |
+|
+|The Bringa| Font Import i| https://www.dafont.com/the-bringa.font|
+|
+| |
