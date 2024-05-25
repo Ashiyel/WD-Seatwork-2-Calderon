@@ -74,7 +74,8 @@ main {
   font-size: 2vw;
   line-height: 300%;
   margin-left: 10cap;
-  margin-top: 200px;
+  margin-top: NONE;
+
   text-shadow: 
     -1px -1px 0 #c9a7a7,  
     1px -1px 0 hsl(36, 100%, 77%),
@@ -83,8 +84,19 @@ main {
 }
 
 .bday, .age, .sxe, .address {
-  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  background-blend-mode: color-burn;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
   color: beige;
+  font-size: 100;
+  justify-content: left;
+  margin-left: cap;
+  text-shadow: 
+    -1px -1px 0 #c9a7a7,  
+    1px -1px 0 hsl(36, 100%, 77%),
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .introMain {
@@ -117,8 +129,7 @@ main {
 }
 
 .image {
-  margin-left: 20px;
-  margin-right: 200px;
+  margin: 200px 200px 200px;
 }
 
 .image img {
@@ -131,6 +142,7 @@ main {
   position: relative;
   background: url('../img/maloi3.png') no-repeat center center fixed;
   background-size: cover;
+  
 }
 
 .section2 {
@@ -199,11 +211,11 @@ main {
   text-size-adjust: initial;
   align-items: self-start;
   margin-bottom: auto;
+  margin-top: 10px ;
+  margin-bottom: 100px;
   margin-top: 10px;
   margin-bottom: 20px;
-  margin-bottom: auto;
-  margin-top: 10px;
-  margin-bottom: 20px;
+
 }
 
 .note {
