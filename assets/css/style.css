@@ -82,9 +82,7 @@ main {
     1px 1px 0 #000;
 }
 
-.angelname{
-  
-}
+.angelname{}
 
 .bday, .age, .sxe, .address {
   background-blend-mode: color-burn;
