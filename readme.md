@@ -148,3 +148,5 @@ WD-ProjectName
 | Flagoria Calintha | Font Import| https://www.dafont.com/flagoriacalintha.font |
 | | | |
 |The Bringa| Font Import i| https://www.dafont.com/the-bringa.font|
+| | | |
+|CSS @media Rule | Orientation Changes | https://www.w3schools.com/cssref/css3_pr_mediaquery.php |
