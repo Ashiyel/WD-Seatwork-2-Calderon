@@ -92,7 +92,7 @@ main {
   font-weight: lighter;
   letter-spacing: 1px;
   color: beige;
-  font-size:xx-large;
+  font-size:100;
   line-height: 200%;
   justify-content: left;
   margin-left: cap;
@@ -125,7 +125,7 @@ main {
 
 .image img {
   max-width:none;
-  height:fit-content;
+  
 
 
 }
@@ -181,10 +181,10 @@ main {
   order: 1;
   display: none;
   border-radius: 1cap;
-  background: hsla(0, 45%, 42%, 0.595);
+  background: hsla(0, 86%, 36%, 0.4);
 
 }
-.mytabs .tab h2 {
+.mytabs .tab h2 { /* Project LOabel */
   font-size: 3em;
 }
 
@@ -225,7 +225,7 @@ main {
   line-height-step: px;
   margin-top: 10px;
   justify-content: center;
-  align-self: ;
+  align-self: NONE ;
   display: flex;
   flex-direction: column;
   font-size: xx-large;
@@ -237,7 +237,7 @@ main {
   display: flex;
   justify-content: center;
   font-size: 200px;
-  letter-spacing: ;
+  letter-spacing:NONE ;
   align-items: center;
   height: 200px;
   font-family: TheBringa;
