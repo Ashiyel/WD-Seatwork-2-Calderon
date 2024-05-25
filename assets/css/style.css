@@ -1,4 +1,3 @@
-
 body {
   width: 100vw;
   height: 100vh;
@@ -24,7 +23,7 @@ header {
 
 .logo {
   color: rgb(126, 100, 66);
-  font-size:xx-large;
+  font-size: xx-large;
   letter-spacing: 10px;
   margin-left: 3px;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -53,7 +52,6 @@ header button {
   align-items: flex-end;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-left: 10px;
-
 }
 
 .name {
@@ -70,7 +68,6 @@ main {
 }
 
 .introSubhead {
-
   color: tomato;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bolder;
@@ -83,29 +80,29 @@ main {
     1px -1px 0 hsl(36, 100%, 77%),
     -1px 1px 0 #000,
     1px 1px 0 #000;
-
 }
-.bday, .age, .sxe, .address{
+
+.bday, .age, .sxe, .address {
   font-family: Verdana, Geneva, Tahoma, sans-serif; 
-  color: beige;}
+  color: beige;
+}
+
 .introMain {
   background-blend-mode: color-burn;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: lighter;
   letter-spacing: 1px;
   color: beige;
-  font-size:100;
+  font-size: 100;
   line-height: 200%;
   justify-content: left;
   margin-left: cap;
   margin-bottom: 300px;
-
   text-shadow: 
     -1px -1px 0 #c9a7a7,  
     1px -1px 0 hsl(36, 100%, 77%),
     -1px 1px 0 #000,
     1px 1px 0 #000;
-
 }
 
 .clearfix::after {
@@ -122,16 +119,11 @@ main {
 .image {
   margin-left: 20px;
   margin-right: 200px;
-
 }
 
 .image img {
-  max-width:none;
-  
-
-
+  max-width: none;
 }
-
 
 .section1 {
   width: 100%;
@@ -143,7 +135,6 @@ main {
 
 .section2 {
   position: relative;
-
   width: 100%;
   min-height: 100vh;
   background: url('../img/maloixd.png') no-repeat center center fixed;
@@ -158,9 +149,11 @@ main {
   padding: 25px;
   margin-bottom: 450px;
 }
+
 .mytabs input[type="radio"] {
   display: none;
 }
+
 .mytabs label {
   cursor: pointer;
   padding: 15px;
@@ -174,7 +167,6 @@ main {
   1px -1px 0 hsla(270, 43%, 36%, 0.356),
   -1px 1px 0 #00000058,
   1px 1px 0 #0000004e;
-
 }
 
 .mytabs .tab {
@@ -184,9 +176,9 @@ main {
   display: none;
   border-radius: 1cap;
   background: hsla(0, 86%, 36%, 0.4);
-
 }
-.mytabs .tab h2 { /* Project LOabel */
+
+.mytabs .tab h2 {
   font-size: 3em;
 }
 
@@ -197,49 +189,46 @@ main {
 .mytabs input[type="radio"]:checked + label {
   background: #af9797;
 }
-.footerGen{
+
+.footerGen {
   color: rgb(255, 187, 0);
-    text-align: center;
-    margin-top: none;
-    font-size:large;
-    flex-direction: row-reverse;
-    text-size-adjust:initial;
-    align-items: self-start;
-    margin-bottom: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-bottom: auto;
-    margin-top: 10px;
-    margin-bottom: 20px;
+  text-align: center;
+  margin-top: none;
+  font-size: large;
+  flex-direction: row-reverse;
+  text-size-adjust: initial;
+  align-items: self-start;
+  margin-bottom: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-bottom: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 
+.note {
+  margin-bottom: auto;
+  margin-top: px;
+  margin-bottom: px;
+}
 
-    
-  }
-  .note{
-    margin-bottom: auto;
-    margin-top: px;
-    margin-bottom: px;
-
-  }
-
-.tabContent{
+.tabContent {
   color: #f1cecea7;
   line-height-step: px;
   margin-top: 10px;
   justify-content: center;
-  align-self: NONE ;
+  align-self: none;
   display: flex;
   flex-direction: column;
   font-size: xx-large;
   background-size: auto;
-  
-
 }
-.AboutMeHeader{
+
+.AboutMeHeader {
   display: flex;
   justify-content: center;
   font-size: 200px;
-  letter-spacing:NONE ;
+  letter-spacing: none;
   align-items: center;
   height: 200px;
   font-family: TheBringa;
@@ -251,18 +240,102 @@ main {
   color: rgba(255, 255, 0, 0.408);
 }
 
-
-
 @font-face {
   font-family: TheBringa;
   src: url(https://www.dafont.com/the-bringa.font);
 }
+
 @font-face {
   font-family: flagoriaCalintha;
-  src: url(https://www.dafont.com/flagoriacalintha.font
-  );
+  src: url(https://www.dafont.com/flagoriacalintha.font);
 }
 
-.bday, .age, .sxe, .address{
+@media only screen and (max-width: 768px) {
+  .logo {
+    font-size: large;
+    letter-spacing: 5px;
+    margin-left: 2%;
+    margin-right: 10%;
+  }
   
+  nav {
+    width: 80%;
+  }
+
+  header button {
+    font-size: small;
+    margin-left: 5px;
+  }
+
+  .introSubhead {
+    font-size: 5vw;
+    line-height: 150%;
+    margin-left: 5%;
+    margin-top: 100px;
+  }
+
+  .introMain {
+    font-size: 80;
+    line-height: 150%;
+    margin-left: 2%;
+    margin-bottom: 200px;
+  }
+
+  .image {
+    margin-right: 50px;
+  }
+
+  .footerGen {
+    font-size: medium;
+  }
+
+  .AboutMeHeader {
+    font-size: 100px;
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .logo {
+    font-size: medium;
+    letter-spacing: 3px;
+    margin-left: 1%;
+    margin-right: 5%;
+  }
+
+  nav {
+    width: 90%;
+  }
+
+  header button {
+    font-size: x-small;
+    margin-left: 3px;
+  }
+
+  .introSubhead {
+    font-size: 7vw;
+    line-height: 120%;
+    margin-left: 5%;
+    margin-top: 50px;
+  }
+
+  .introMain {
+    font-size: 70;
+    line-height: 130%;
+    margin-left: 1%;
+    margin-bottom: 150px;
+  }
+
+  .image {
+    margin-right: 20px;
+  }
+
+  .footerGen {
+    font-size: small;
+  }
+
+  .AboutMeHeader {
+    font-size: 80px;
+    height: 120px;
+  }
 }
