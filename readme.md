@@ -136,4 +136,4 @@ WD-ProjectName
 | HTML Links | For Hyperlinks | https://www.w3schools.com/html/html_links.asp |
 |
 | Modern CSS Glowing Button Hover Effects | Html CSS Tutorial | Button | https://www.youtube.com/watch?v=xnltEHWWjiM |
-| | | |
+| How to Create Tabs with only HTML & CSS | Tabs in CSS| https://www.youtube.com/watch?v=oLqdy95LZSw |
