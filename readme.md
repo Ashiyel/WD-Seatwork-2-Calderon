@@ -124,7 +124,7 @@ WD-ProjectName
 | CSS Fonts | CCS Font Guide| https://www.w3schools.com/css/css_font.asp |
 |
 | Easiest Pure CSS Parallax Effect Tutorial | Parallax Effect| https://www.youtube.com/watch?v=Jt2yNZdOHxQ | https://redstapler.co/easiest-way-to-create-pure-css-parallax-tutorial/|
-|
+| 
 | How to resize an image using CSS | Image Resize| https://www.browserstack.com/guide/how-to-resize-image-using-css#toc0 |
 |
 | How To Add Text Outline With CSS | Text Outline | https://kinsta.com/blog/css-text-outline/ |

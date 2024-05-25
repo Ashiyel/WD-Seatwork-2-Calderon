@@ -145,6 +145,253 @@ main {
   min-height: 100vh;
   background: url('../img/maloixd.png') no-repeat center center fixed;
   background-size: cover;
+  margin-top: ;
+
+}
+
+.mytabs {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: auto;
+  padding: 25px;
+  margin-bottom: 450px;
+}
+.mytabs input[type="radio"] {
+  display: none;
+}
+.mytabs label {
+  cursor: pointer;
+  padding: 25px;
+  background: #493592;
+  font-weight: bold;
+  border-radius: 10cap;
+  margin-top:;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  text-shadow: 
+  -1px -1px 0 #451d864f,  
+  1px -1px 0 hsla(270, 43%, 36%, 0.356),
+  -1px 1px 0 #00000058,
+  1px 1px 0 #0000004e;
+
+}
+
+.mytabs .tab {
+  width: 100%;
+  padding: 20px;
+  order: 1;
+  display: none;
+  border-radius: 1cap;
+  background: hsla(0, 45%, 42%, 0.595);
+
+}
+.mytabs .tab h2 {
+  font-size: 3em;
+}
+
+.mytabs input[type='radio']:checked + label + .tab {
+  display: block;
+}
+
+.mytabs input[type="radio"]:checked + label {
+  background: #af9797;
+}
+.footerGen{
+  color: rgb(255, 187, 0);
+    text-align: center;
+    margin-top: none;
+    font-size: smaller;
+    flex-direction: row-reverse;
+    
+  }
+
+.tabContent{
+  color: #f1cecea7;
+  line-height-step: px;
+  margin-top: 10px;
+  justify-content: center;
+  align-self: ;
+  display: flex;
+  flex-direction: column;
+  font-size: xx-large;
+  background-size: auto;
+  
+
+}
+.AboutMeHeader{
+  display: flex;
+  justify-content: center;
+  font-size: 190px;
+  align-items: center;
+  height: 300px;
+  font-family: TheBringa;
+  text-shadow: 
+  -1px -1px 0 #302c3732,  
+  1px -1px 0 hsla(270, 43%, 36%, 0.119),
+  -1px 1px 0 #00000000,
+  1px 1px 0 #5e282800;  
+  color: rgba(255, 255, 0, 0.408);
+}
+
+.mytabs{
+  
+}
+
+
+
+@font-face {
+  font-family: TheBringa;
+  src: url(https://www.dafont.com/the-bringa.font);
+}
+
+/*   
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: #ffe60024;
+  font-family: monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1px;
+  align-items: center;
+  font-size: medium;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.logo {
+  color: rgb(126, 100, 66);
+  font-size:xx-large;
+  letter-spacing: 10px;
+  margin-left: 3px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin-left: 4%;
+  margin-right: 50%;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: auto;
+  width: 50%;
+}
+
+header button {
+  padding: 0.5rem 0.1rem;
+  border: none;
+  font-weight: 600;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 2px;
+  background-color: transparent;
+  font-size: medium;
+  text-decoration: underline;
+  align-items: flex-end;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-left: 10px;
+
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: xx-large;
+}
+
+main {
+  color: aliceblue;
+  line-height: 30px;
+  font-size: larger;
+}
+
+.introSubhead {
+
+  color: tomato;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+  font-size: 2vw;
+  line-height: 300%;
+  margin-left: 10cap;
+  margin-top: 200px;
+  text-shadow: 
+    -1px -1px 0 #c9a7a7,  
+    1px -1px 0 hsl(36, 100%, 77%),
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+}
+
+.introMain {
+  background-blend-mode: color-burn;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: beige;
+  font-size:xx-large;
+  line-height: 200%;
+  justify-content: left;
+  margin-left: cap;
+  margin-bottom: 300px;
+
+  text-shadow: 
+    -1px -1px 0 #c9a7a7,  
+    1px -1px 0 hsl(36, 100%, 77%),
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.image {
+  margin-left: 20px;
+  margin-right: 200px;
+
+}
+
+.image img {
+  max-width:none;
+  height:fit-content;
+
+
+}
+
+
+.section1 {
+  width: 100%;
+  min-height: 85vh;
+  position: relative;
+  background: url('../img/maloi3.png') no-repeat center center fixed;
+  background-size: cover;
+  background-attachment:;
+}
+
+.section2 {
+  width: 100%;
+  min-height: 100vh;
+  background: url('../img/maloixd.png') no-repeat center center fixed;
+  background-size: cover;
   margin top: ;
 
 }
@@ -217,3 +464,4 @@ main {
   font-size: xx-large;
 
 }
+*/
