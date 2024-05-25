@@ -148,5 +148,3 @@ WD-ProjectName
 | Flagoria Calintha | Font Import| https://www.dafont.com/flagoriacalintha.font |
 | | | |
 |The Bringa| Font Import i| https://www.dafont.com/the-bringa.font|
-|
-| |
