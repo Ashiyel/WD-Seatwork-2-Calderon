@@ -85,7 +85,9 @@ main {
     1px 1px 0 #000;
 
 }
-
+.bday, .age, .sxe, .address{
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  color: beige;}
 .introMain {
   background-blend-mode: color-burn;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -259,4 +261,8 @@ main {
   font-family: flagoriaCalintha;
   src: url(https://www.dafont.com/flagoriacalintha.font
   );
+}
+
+.bday, .age, .sxe, .address{
+  
 }
