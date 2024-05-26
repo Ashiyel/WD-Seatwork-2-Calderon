@@ -105,6 +105,16 @@ main {
   color: #af9797;
 }
 
+.kinder p, .UNIVERSITY, .seniorHigh, .juniorHigh, .elem{
+
+}
+
+
+
+.tabEDUCATION, .tabFunFacts, .tabProjects{
+  font-family: TheBringa; 
+}
+
 .clearfix::after {
   content: "";
   clear: both;
