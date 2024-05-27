@@ -149,4 +149,4 @@ WD-ProjectName
 | | | |
 |The Bringa| Font Import i| https://www.dafont.com/the-bringa.font|
 | | | |
-|CSS @media Rule | Orientation Changes | https://www.w3schools.com/cssref/css3_pr_mediaquery.php |
+|CSS @media Rule | Orientation Changes | https://www.w3schools.com/cssref/css3_pr_mediaquery.php 

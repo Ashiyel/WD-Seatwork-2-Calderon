@@ -1,6 +1,6 @@
 body {
   width: 100vw;
-  height: 100vh;
+  height: 10px;
   margin: 0;
   background: #ffe60024;
   font-family: monospace;
@@ -18,7 +18,7 @@ header {
   align-items: center;
   font-size: medium;
   position: relative;
-  margin-bottom: 0;  
+  margin-bottom: 0;
 }
 
 .logo {
@@ -75,16 +75,14 @@ main {
   line-height: 300%;
   margin-left: 10cap;
   margin-top: NONE;
+
   text-shadow: 
     -1px -1px 0 #c9a7a7,  
     1px -1px 0 hsl(36, 100%, 77%),
     -1px 1px 0 #000,
     1px 1px 0 #000;
 }
-
-.angelname{}
-
-.bday, .age, .sxe, .address {
+.introSubhead p{
   background-blend-mode: color-burn;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: lighter;
@@ -97,22 +95,7 @@ main {
     -1px -1px 0 #c9a7a7,  
     1px -1px 0 hsl(36, 100%, 77%),
     -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
-
-.kinder, .UNIVERSITY, .seniorHigh, .juniorHigh, .elem{
-  font-size: 150%;
-  color: #af9797;
-}
-
-.kinder p, .UNIVERSITY, .seniorHigh, .juniorHigh, .elem{
-
-}
-
-
-
-.tabEDUCATION, .tabFunFacts, .tabProjects{
-  font-family: TheBringa; 
+    1px 1px 0 #000; 
 }
 
 .clearfix::after {
@@ -165,6 +148,7 @@ main {
 }
 
 .mytabs label {
+  color: hsla(0, 24%, 51%, 0.306);
   cursor: pointer;
   padding: 15px;
   background: #493592;
@@ -173,10 +157,10 @@ main {
   margin-bottom: 10px;
   margin-left: 10px;
   text-shadow: 
-  -1px -1px 0 #451d864f,  
-  1px -1px 0 hsla(270, 43%, 36%, 0.356),
-  -1px 1px 0 #00000058,
-  1px 1px 0 #0000004e;
+  -1px -1px 0 #451d8600,  
+  1px -1px 0 hsla(56, 89%, 32%, 0),
+  -1px 1px 0 #ffee7de9,
+  1px 1px 0 #000000;
 }
 
 .mytabs .tab {
@@ -185,11 +169,14 @@ main {
   order: 1;
   display: none;
   border-radius: 1cap;
-  background: hsla(0, 86%, 35%, 0.4);
+  background: hsla(0, 86%, 36%, 0.4);
 }
 
 .mytabs .tab h2 {
   font-size: 3em;
+  font-family: flagoriaCalintha;
+  letter-spacing: 10px;
+  color: #ff8400;
 }
 
 .mytabs input[type='radio']:checked + label + .tab {
@@ -200,10 +187,18 @@ main {
   background: #af9797;
 }
 
-footer{
-  width: 100%;
-  position:absolute;
-  bottom: 0;
+
+.tab p{
+color: #ffe7ae;
+}
+.tab h3{
+  color
+}
+
+
+
+.footer{
+  height: 100%;
 }
 
 .footerGen {
@@ -215,7 +210,7 @@ footer{
   text-size-adjust: initial;
   align-items: self-start;
   margin-bottom: auto;
-  margin-top: 10px;
+  margin-top: 10px ;
   margin-bottom: 100px;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -239,7 +234,6 @@ footer{
   font-size: xx-large;
   background-size: auto;
 }
-
 
 .AboutMeHeader {
   display: flex;
@@ -312,47 +306,3 @@ footer{
   }
 }
 
-@media only screen and (max-width: 480px) {
-  .logo {
-    font-size: medium;
-    letter-spacing: 3px;
-    margin-left: 1%;
-    margin-right: 5%;
-  }
-
-  nav {
-    width: 90%;
-  }
-
-  header button {
-    font-size: x-small;
-    margin-left: 3px;
-  }
-
-  .introSubhead {
-    font-size: 7vw;
-    line-height: 120%;
-    margin-left: 5%;
-    margin-top: 50px;
-  }
-
-  .introMain {
-    font-size: 70;
-    line-height: 130%;
-    margin-left: 1%;
-    margin-bottom: 150px;
-  }
-
-  .image {
-    margin-right: 20px;
-  }
-
-  .footerGen {
-    font-size: small;
-  }
-
-  .AboutMeHeader {
-    font-size: 80px;
-    height: 120px;
-  }
-}
