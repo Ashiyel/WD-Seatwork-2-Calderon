@@ -111,11 +111,6 @@ WD-ProjectName
 ```
 
 ## Resources
-
-| Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
@@ -123,7 +118,7 @@ WD-ProjectName
 | | | |
 | CSS Web Safe Fonts | Guides to CSS Fonts | https://www.w3schools.com/cssref/css_websafe_fonts.php |
 | | | |
-| How to include a CSS background image 🏙️ | For Background Image| https://www.youtube.com/watch?v=_oFWg_NlKdo |
+| How to include a CSS background image | For Background Image| https://www.youtube.com/watch?v=_oFWg_NlKdo |
 | | | |
 | Letter Space And Line Height In HTML Element Using css | Letter Spacing | https://www.youtube.com/watch?v=Zo8MuwWIflo |
 | | | |
